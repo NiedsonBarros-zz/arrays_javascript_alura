@@ -13,4 +13,4 @@ const exibeNomeNota = (nomeDoAluno) => {
     }
 }
 
-console.log(exibeNomeNota('Nemo'))
+console.log(exibeNomeNota('Ana'))

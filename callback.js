@@ -12,15 +12,13 @@
 // }
 
 
-//ForEach Tabuada
+//ForEach Tabuada (Tabuada de 0 a 10)
 
 const numeros = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 let mult = 0;
 
-//tabuada completa de 0 a 10
 numeros.forEach(index=>{
    
-
 if(mult < numeros.length){
 numeros.forEach((tabuada, index)=>{
     console.log(`${mult} X ${index} é: ${tabuada* mult}.`)

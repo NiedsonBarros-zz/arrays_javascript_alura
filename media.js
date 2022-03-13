@@ -7,5 +7,10 @@
 
 let notas = [10, 6.5, 8, 7.5]
 
-let media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length;
-console.log(media)
+// let media = (notas[0] + notas[1] + notas[2] + notas[3]) / notas.length;
+// console.log(media)
+
+//usando reduce
+const media = notas.reduce((a, b) => a + b, 0)
+
+console.log(media/notas.length)
